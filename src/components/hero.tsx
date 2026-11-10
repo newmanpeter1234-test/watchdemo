@@ -65,13 +65,13 @@ export function Hero() {
         </motion.div>
 
         {/* Legibility & grade */}
-        <div className="absolute inset-0 bg-[linear-gradient(100deg,rgba(10,11,10,0.95)_0%,rgba(10,11,10,0.84)_30%,rgba(10,11,10,0.46)_56%,rgba(10,11,10,0.3)_76%,rgba(10,11,10,0.55)_100%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(120%_85%_at_50%_8%,transparent_30%,rgba(10,11,10,0.8)_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(100deg,rgba(10,11,10,0.92)_0%,rgba(10,11,10,0.8)_30%,rgba(10,11,10,0.42)_56%,rgba(10,11,10,0.26)_76%,rgba(10,11,10,0.52)_100%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(140%_120%_at_58%_2%,transparent_22%,rgba(10,11,10,0.42)_58%,rgba(10,11,10,0.86)_100%)]" />
         {/* Copy-side scrim: guarantees contrast for the headline block */}
-        <div className="absolute inset-y-0 left-0 w-full bg-[linear-gradient(90deg,rgba(10,11,10,0.9)_0%,rgba(10,11,10,0.62)_38%,rgba(10,11,10,0.18)_62%,transparent_78%)] md:w-[80%]" />
+        <div className="absolute inset-y-0 left-0 w-full bg-[radial-gradient(105%_120%_at_8%_55%,rgba(10,11,10,0.86)_0%,rgba(10,11,10,0.6)_34%,rgba(10,11,10,0.2)_60%,transparent_82%)]" />
         <div className="absolute inset-x-0 bottom-0 h-[46%] bg-gradient-to-t from-ink-950 via-ink-950/70 to-transparent" />
         <div className="absolute inset-0 bg-[#c8964f] opacity-[0.07] mix-blend-soft-light" />
-        <div className="grain absolute inset-0 opacity-70" />
+        <div className="grain absolute inset-0 opacity-90" />
       </motion.div>
 
       {/* Thin architectural guides */}
